@@ -1,0 +1,69 @@
+name: mu_study
+description: MU Study — School Management & Study Platform
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  supabase_flutter: ^2.9.1
+  flutter_riverpod: ^2.6.1
+  go_router: ^14.8.1
+  freezed_annotation: ^2.4.4
+  json_annotation: ^4.9.0
+  shared_preferences: ^2.5.3
+  responsive_framework: ^1.5.1
+  flutter_animate: ^4.5.2
+  cached_network_image: ^3.4.1
+  shimmer: ^3.0.0
+  skeletonizer: ^2.0.1
+  file_picker: ^8.3.7
+  image_picker: ^1.1.2
+  syncfusion_flutter_pdfviewer: ^30.1.41
+  syncfusion_flutter_charts: ^30.1.41
+  intl: ^0.20.2
+  url_launcher: ^6.3.1
+  google_fonts: ^6.2.1
+  flutter_dotenv: ^5.2.1
+  record: ^6.2.1
+  audioplayers: ^6.7.1
+  path_provider: ^2.1.6
+  path: ^1.9.1
+  cross_file: ^0.3.5+4
+  share_plus: ^11.0.0
+  video_player: ^2.11.1
+  http: ^1.6.0
+  crypto: ^3.0.7
+  syncfusion_flutter_pdf: ^30.1.41
+  package_info_plus: ^9.0.1
+  lottie: ^3.3.3
+  characters: ^1.4.1
+  flutter_cache_manager: ^3.4.2
+  get_thumbnail_video: ^0.7.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner: ^2.4.15
+  freezed: ^2.5.8
+  json_serializable: ^6.9.5
+
+dependency_overrides:
+  audioplayers_darwin: 6.3.0
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/logo/
+    - assets/images/nature-paper/
+    - assets/lottie/
+    - .env
